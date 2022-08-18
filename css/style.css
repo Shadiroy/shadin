@@ -1,0 +1,65 @@
+/* universel selector */
+*{
+margin: 0;
+padding: 0;
+border: 0;
+}
+/*element/name selector */
+body{
+background-color: rgb(255, 167, 108); 
+}
+/* id selector */
+#admin-box{
+background-color: rgb(138, 47, 14);
+color: black;
+text-align: center;
+width: 50%;
+margin: 5% auto;
+padding: 30px;
+border-radius: 10px;
+}
+/* class selector */
+.admin-image{ width: 100px;
+
+}
+/* decendent selector */
+#admin-box h1{
+font-size: 35px;
+text-transform: uppercase;
+}
+/* grouping selector */
+input,label{
+display: block;
+width: 90%;
+margin: auto;
+padding: 10px;
+}
+input{
+background-color: transparent;
+color: black;
+border: 2px solid black;
+border-radius: 10px;
+}
+label{
+font-size: 20px;
+}
+input:focus {
+background-color:rgb(255, 167, 108);
+}
+p {
+    font-size: 20px;
+}
+p a {
+text-decoration: none;
+color: rgb(255, 167, 108);
+text-transform: capitalize;
+}
+input[type="submit"] {
+background-color: rgb(255, 167, 108);
+margin: 20px auto;
+width: 25%;
+transition: ease-in-out 0.8s;
+}
+input[type="submit"]:hover {
+background-color: transparent;
+}
